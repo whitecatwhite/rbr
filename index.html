@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <title>probably something</title>
+    
+    <meta name="author" content="Platol" />
+    <meta name="description" content="TailwindCSS Personal Portfolio Template" />
+    <meta property="og:title" content="Aver - TailwindCSS Personal Portfolio Template" />
+    <meta property="og:description" content="TailwindCSS Personal Portfolio Template" />
+    <meta property="og:image" content="./images/ogimage.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta name="twitter:title" content="Aver - TailwindCSS Personal Portfolio Template" />
+    <meta name="twitter:image" content="./images/ogimage.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="TailwindCSS Personal Portfolio Template" />
+    
+    <link rel="shortcut icon" href="./images/smth.png" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="./plugins/aos/aos.css">
+    <link rel="stylesheet" href="./styles/output.css">
+  </head>
+
+  <body>
+    <!-- start of header -->
+    <header class="fixed top-0 z-[9000] w-full header [&.invisible]:-translate-y-full">
+      <div class="container">
+        <div class="flex justify-between py-6 items-center relative">
+          <!-- logo -->
+          <div class="hideOnScroll lg:[&.scrolled]:opacity-0 lg:[&.scrolled]:-translate-x-8 w-1/4 transition-all duration-300">
+            <a class="inline-block align-middle" href="./index.html">
+              <img alt="Aver" width="80" height="29" src="./images/logo.png" />
+            </a>
+          </div>
+
+          <!-- navbar -->
+          <nav class="navbar">
+            <span class="indicator"></span>
+            <a class="active" href="https://pump.fun" target="_blank">pump.fun</a>
+            <a href="https://x.com/probablysmth" target="_blank">twitter</a>
+          </nav>
+          <div class="navOverlay"></div>
+
+          <!-- toggle mobile-nav -->
+          <button type="button" aria-label="Toggle Mobile Navigation" class="navToggler">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 8l16 0"></path>
+              <path d="M4 16l16 0"></path>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M18 6l-12 12"></path>
+              <path d="M6 6l12 12"></path>
+            </svg>
+          </button>
+
+          <!-- social links -->
+        </div>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- start of main -->
+    <main class="bg-dark relative z-10 pt-[240px] min-h-[100vh] overflow-hidden">
+      
+      <!-- ================= start of banner ================= -->
+      <section class="banner homepage-banner">
+        <div class="container h-full">
+          <div class="row h-full items-center">
+            <div class="col-12 text-center">
+
+              <!-- image/mobile -->
+
+              <h1 class="name md:flex items-center flex-wrap justify-center font-secondary" data-aos="fade-up-sm">
+                <!-- first name -->
+                <span class="inline-block">SOMETHING</span>
+              </h1>
+
+              <!-- introduction -->
+              <div class="mt-1 md:mt-2 md:text-xl font-light md:max-w-xl mx-auto opacity-80" data-aos="fade-up-sm" data-aos-delay="100">
+                probably something, or maybe everything
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <div class="ca">ca: coming soon</div>
+    
+    <!-- end of main -->
+
+    <!-- ================= start of footer ================= -->
+  
+    
+    <!-- ================= end of footer ================= -->
+
+    <!-- start of script -->
+    <script src="./plugins/aos/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
